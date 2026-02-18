@@ -10,6 +10,10 @@ This project uses a decision intelligence approach to help a first-time homebuye
 
 The goal of this analysis is not to predict the market perfectly, but to provide evidence-based insight that helps a buyer make a more informed decision under uncertainty.
 
+> [!TIP] But we could predict the interest rate, potentially.  And, with that, forecast total lifetime cost over a 5-year mortgage
+> 
+[Read more](background.md)
+
 ## Initial Causal Loop Diagram
 ![Draft Causal Loop Diagram](img/cld-draft.png)
 
