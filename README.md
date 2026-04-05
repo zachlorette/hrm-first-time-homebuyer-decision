@@ -75,14 +75,6 @@ Halifax has experienced one of the most rapid population growth periods in its h
 
 ---
 
-### Visualization 5 — Buy vs. Wait Scenario Analysis
-
-![Buy vs Wait Scenarios](img/viz5_buy_vs_wait.png)
-
-This decision-focused visualization directly models the buyer's choice. The left panel computes total five-year out-of-pocket costs under three interest rate scenarios (4.54% — current market; 5.50% — moderate rise; 6.50% — significant re-escalation) and four wait periods (buy now, wait 6 months, 1 year, 18 months), assuming 3.5% annual price appreciation and $1,790/month rent while waiting. Under current rates, waiting does not meaningfully reduce total cost: rent accumulation erodes any potential price or rate benefit. Only under the 6.50% rate scenario does waiting 6 months produce a slight reduction in total cost — but that scenario requires rates to re-escalate from current levels, which contradicts the prevailing Bank of Canada easing trajectory. The right panel shows monthly payment sensitivity: at current posted rates (~4.54%), a $530,000 purchase with 10% down yields a monthly payment of approximately $2,630. A $50,000 price reduction (to $480k) would save ~$245/month — less impactful than a 1% rate reduction, which saves approximately $290/month. This analysis suggests the rate environment matters more than short-term price movement for this buyer's monthly affordability.
-
----
-
 ### Refined Causal Loop Diagram
 
 ![Refined CLD](img/cld-refined.png)
@@ -101,12 +93,19 @@ The refined CLD now includes 12 variables and four identified feedback loops:
 
 ---
 
+## Milestone 3: Analysis (Path A — Systems Focus)
+
+Full analysis is available in [Analysis.md](Analysis.md).
+
+---
+
 ## Repository Structure
 
 ```
 ├── README.md
 ├── Background.md
 ├── Wrangling.md
+├── Analysis.md
 ├── data/
 │   ├── README.md
 │   ├── interest_rates.csv
@@ -118,8 +117,7 @@ The refined CLD now includes 12 variables and four identified feedback loops:
 │   ├── viz1_price_vs_rate.png
 │   ├── viz2_affordability_inventory.png
 │   ├── viz3_rate_relationships.png
-│   ├── viz4_supply_rental.png
-│   └── viz5_buy_vs_wait.png
+│   └── viz4_supply_rental.png
 └── src/
     ├── eda.py
     └── cld_refined.py
